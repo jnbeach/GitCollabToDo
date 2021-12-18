@@ -1,22 +1,13 @@
 todos = []
 
+def add(todo):
+    todos.append(todo)
+
+def delete(todo):
+     todos.remove("banana")
 
 def main():
-    print("hey there")  # Using the special variable  # __name__
-    print("This is some more changes.")
-
+    print("This a todo list") 
 
 if __name__ == "__main__":
     main()
-
-
-def hello():
-    print("hello")
-
-
-def hello2():
-    print("Bonjour")
-
-
-def add(todo):
-    todos.append(todo)
