@@ -1,7 +1,4 @@
-print("This is one change.")
-print("This is another change.")
-print("This is some more changes.")
-print("Hello")    # Defining main function
+todos = []
 
 
 def main():
@@ -19,3 +16,7 @@ def hello():
 
 def hello2():
     print("Bonjour")
+
+
+def add(todo):
+    todos.append(todo)
