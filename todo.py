@@ -20,3 +20,9 @@ def hello2():
 
 def add(todo):
     todos.append(todo)
+
+
+def update(old_todo, new_todo):
+    for i, todo in enumerate(todos):
+        if todo == old_todo:
+            todos[i] = new_todo
